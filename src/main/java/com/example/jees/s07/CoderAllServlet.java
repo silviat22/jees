@@ -29,7 +29,7 @@ public class CoderAllServlet extends HttpServlet {
     /**
      * JDBC data source, container managed
      */
-    @Resource(name = "jdbc/hron")
+    @Resource(name = "jdbc/hron") //sto dicendo a Tomcat: pensaci tu a Datasource e mettilo qui dentro.
     private DataSource ds;
 
     @Override

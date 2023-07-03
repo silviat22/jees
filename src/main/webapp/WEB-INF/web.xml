@@ -17,7 +17,7 @@
     <resource-ref>
         <res-ref-name>jdbc/hron</res-ref-name>
         <res-type>javax.sql.DataSource</res-type>
-        <res-auth>Container</res-auth>
+        <res-auth>Container</res-auth> <!-- container: Tomcat che gestisce data source con nome hron... -->
     </resource-ref>
 
     <!-- slide 9 -->
